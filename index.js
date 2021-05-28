@@ -86,11 +86,12 @@ let data = [{
 
 
 window.onload = function() {
-    loadCourseDropdown();
+    loadTitlesDropdown();
+    object.onclick = function(){};
 
 }
 
-function loadCourseDropdown() {
+function loadTitlesDropdown() {
     const coursesDropdown = document.getElementById("coursesDropdown");
 
 let selectOneOption = new Option("Select One...", "");
